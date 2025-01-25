@@ -59,6 +59,8 @@ import swervelib.telemetry.SwerveDriveTelemetry.TelemetryVerbosity;
 public class SwerveSubsystem extends SubsystemBase
 {
 
+  public double maximumSpeed = Units.feetToMeters(30);
+
   /**
    * Swerve drive object.
    */
